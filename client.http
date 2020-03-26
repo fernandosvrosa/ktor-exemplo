@@ -1,0 +1,30 @@
+GET http://localhost:8080/books
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoidGVzdGUifQ.tims30Ys0oPmuRqXzAOGXSC3YFTwMWrfmIMaKMB5Ym8
+
+{
+"title": "the jungle book"
+}
+
+###
+
+GET http://localhost:8080/books/4237b0d7-157a-425a-a5a7-0e971f5386bf
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+  "name": "teste",
+  "password": "teste"
+}
+
+###
+
